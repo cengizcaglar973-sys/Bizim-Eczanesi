@@ -3,17 +3,46 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bizim Eczanesi | Sultanhanı Nöbetçi Eczane</title>
+<title>Bizim Eczanesi Sultanhanı | Nöbetçi Eczane</title>
+<meta name="description" content="Bizim Eczanesi - Sultanhanı, Aksaray. Türkistan Mahallesi, Reis Ali Solak Caddesi adres, telefon ve Sultanhanı nöbetçi eczane bilgileri.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://cengizcaglar973-sys.github.io/Bizim-Eczanesi/">
+
+<meta property="og:title" content="Bizim Eczanesi Sultanhanı | Nöbetçi Eczane">
+<meta property="og:description" content="Bizim Eczanesi Sultanhanı / Aksaray adres, telefon ve nöbetçi eczane bilgileri.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cengizcaglar973-sys.github.io/Bizim-Eczanesi/">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Pharmacy",
+  "name":"Bizim Eczanesi",
+  "url":"https://cengizcaglar973-sys.github.io/Bizim-Eczanesi/",
+  "telephone":"+905469223016",
+  "description":"Sultanhanı, Aksaray bölgesinde bulunan Bizim Eczanesi.",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Türkistan Mahallesi, Reis Ali Solak Caddesi",
+    "addressLocality":"Sultanhanı",
+    "addressRegion":"Aksaray",
+    "addressCountry":"TR"
+  },
+  "employee":{"@type":"Person","name":"Hakan Tosun"}
+}
+</script>
+
 <style>
 :root{--bg:#f4f7f7;--card:#fff;--text:#10201f;--muted:#61706f;--primary:#0f766e;--border:#dce7e5;--shadow:0 18px 45px rgba(15,118,110,.12)}
 body.dark{--bg:#071211;--card:#0d1b1a;--text:#eefaf8;--muted:#9bb1ae;--primary:#2dd4bf;--border:#203936;--shadow:0 18px 50px rgba(0,0,0,.3)}
 *{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--text);transition:.3s}
 .topbar{position:sticky;top:0;z-index:10;background:var(--card);border-bottom:1px solid var(--border)}
 .nav{width:min(1100px,92%);height:65px;margin:auto;display:flex;align-items:center;justify-content:space-between}
 .brand{font-weight:800;font-size:18px;display:flex;gap:10px;align-items:center}
 .icon{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--primary);color:white;font-size:22px}
-.theme{border:1px solid var(--border);background:var(--card);color:var(--text);width:42px;height:42px;border-radius:12px;cursor:pointer}
+.theme{border:1px solid var(--border);background:var(--card);color:var(--text);width:42px;height:42px;border-radius:12px;cursor:pointer;font-size:18px}
 .hero{width:min(1100px,92%);margin:50px auto 28px;text-align:center}
 .badge{display:inline-block;padding:8px 13px;border-radius:999px;background:var(--card);border:1px solid var(--border);color:var(--primary);font-weight:800;font-size:13px}
 h1{font-size:clamp(32px,6vw,58px);margin:18px 0 10px;letter-spacing:-2px}
@@ -34,7 +63,7 @@ h1{font-size:clamp(32px,6vw,58px);margin:18px 0 10px;letter-spacing:-2px}
 .duty{grid-column:1/-1}
 .section-desc{color:var(--muted);line-height:1.55;font-size:14px}
 .duty-frame{width:100%;max-width:400px;margin:auto;text-align:center}
-.duty-frame img{width:100%;border-radius:8px;display:block}
+.duty-frame img{width:100%;border-radius:2px;display:block}
 .duty-frame iframe{width:100%;height:240px;border:none;border-radius:8px;margin-top:8px;display:block}
 .note{margin-top:18px;padding:14px;border-radius:13px;background:var(--bg);color:var(--muted);font-size:13px;line-height:1.5}
 footer{text-align:center;color:var(--muted);padding:25px}
@@ -42,11 +71,12 @@ footer strong{color:var(--text)}
 @media(max-width:760px){.grid{grid-template-columns:1fr}.duty{grid-column:auto}.card{padding:21px}h1{letter-spacing:-1px}}
 </style>
 </head>
+
 <body>
 <header class="topbar">
 <nav class="nav">
 <div class="brand"><div class="icon">✚</div><span>Bizim Eczanesi</span></div>
-<button class="theme" id="themeBtn" onclick="toggleTheme()">🌙</button>
+<button class="theme" id="themeBtn" onclick="toggleTheme()" aria-label="Tema değiştir">🌙</button>
 </nav>
 </header>
 
@@ -54,7 +84,7 @@ footer strong{color:var(--text)}
 <section class="hero">
 <div class="badge">● SULTANHANI • AKSARAY</div>
 <h1>BİZİM ECZANESİ</h1>
-<p>Sultanhanı'ndaki Bizim Eczanesi için adres, telefon ve nöbetçi eczane bilgilerine hızlıca ulaşın.</p>
+<p>Sultanhanı, Aksaray'daki Bizim Eczanesi için adres, telefon ve nöbetçi eczane bilgilerine hızlıca ulaşın.</p>
 </section>
 
 <section class="container">
@@ -72,24 +102,19 @@ footer strong{color:var(--text)}
 <article class="card">
 <h2>📍 Konum</h2>
 <div class="note">Türkistan Mahallesi, Reis Ali Solak Caddesi, Sultanhanı / Aksaray</div>
-<div class="actions">
-<a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bizim%20Eczanesi%20Sultanhan%C4%B1%20Aksaray">🗺️ Haritada Aç</a>
-</div>
+<div class="actions"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bizim%20Eczanesi%20Sultanhan%C4%B1%20Aksaray">🗺️ Haritada Aç</a></div>
 </article>
 
 <article class="card duty">
 <h2>🚨 Sultanhanı Nöbetçi Eczaneler</h2>
-<p class="section-desc">Güncel nöbetçi eczaneleri aşağıdaki bölümden görüntüleyebilirsiniz.</p>
+<p class="section-desc">Sultanhanı, Aksaray bölgesindeki nöbetçi eczaneleri aşağıdaki bölümden görüntüleyebilirsiniz.</p>
 
-<!-- eczaneler.gen.tr tarafından verilen "Sitene Ekle" kodu -->
-<div class="duty-frame">
-<a href="https://www.eczaneler.gen.tr/nobetci-aksaray-sultanhani" target="_blank" rel="noopener">
-<img src="https://www.eczaneler.gen.tr/resimler/nobetci-eczane.jpg" alt="Sultanhanı nöbetçi eczaneleri">
-</a>
-<iframe src="https://www.eczaneler.gen.tr/iframe.php?lokasyon=2106" name="Sultanhanı nöbetçi eczaneleri" title="Sultanhanı nöbetçi eczaneleri" loading="lazy"></iframe>
+<!-- Kaynak sitenin "Sitene Ekle" kodu korunmuştur. -->
+<div style="margin:auto;text-align:center;width:100%;max-width:400px;">
+<a href="https://www.eczaneler.gen.tr/nobetci-aksaray-sultanhani" target="_blank"><img src="https://www.eczaneler.gen.tr/resimler/nobetci-eczane.jpg" alt="Sultanhanı nöbetçi eczaneleri" style="width:100%;border-radius:2px;"></a><iframe src="https://www.eczaneler.gen.tr/iframe.php?lokasyon=2106" name="Sultanhanı nöbetçi eczaneleri" style="width:100%;height:240px;border:none;"></iframe>
 </div>
 
-<div class="note">Kaynak sayfasını açmak için yukarıdaki görsele tıklayabilirsiniz.</div>
+<div class="note">🔄 Nöbetçi eczane bilgileri harici kaynaktan yüklenmektedir. Kaynak sayfasını açmak için yukarıdaki görsele tıklayabilirsiniz.</div>
 </article>
 
 </div>
