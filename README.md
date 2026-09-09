@@ -1,4 +1,4 @@
-# Bizim Eczanesi
+# Bizim Eczanesi — Sultanhanı / Aksaray
 
 Sultanhanı / Aksaray'daki Bizim Eczanesi
 
